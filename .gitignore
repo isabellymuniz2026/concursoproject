@@ -1,0 +1,24 @@
+# Dependências
+node_modules/
+
+# Arquivos com credenciais e configurações locais
+.env
+.env.*
+!.env.example
+
+# Arquivos gerados
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+
+# Configurações locais do editor e do sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Editais e uploads locais de usuários
+uploads/
